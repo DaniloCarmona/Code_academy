@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Number Guessing</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+    </head>
+    <body>
+        <section class="overlay">
+            <h1>Guess the right number!!!</h1>
+            <form action="check.html" method="GET">
+                <label for="guess">Enter a number between 1 - 10:</label>
+                <input type="number" id="guess" min="1" max="10" value="guess" name="guess" required><br>
+                <label for="submit"></label>
+                <input type="submit" value="Send"><hr>
+            </form>
+        </section>
+        <section>
+            <h1>Sign up</h1>
+            <p>Create an account:</p>
+            <form action="submission.html" method="GET">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" minlength="5" maxlength="15" required pattern="[a-zA-Za-z0-9]+"><br><br>
+                <label for="psw">Password</label>
+                <input type="password" id="psw" name="psw" minlength="8" maxlength="15" required><br><br>
+                <input type="submit" value="Send">
+                </label>
+            </form><hr>
+        </section>
+    </body>
+</html>

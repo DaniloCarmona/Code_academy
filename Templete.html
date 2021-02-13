@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author"         content="">
+        <meta name="description"    content="">
+        <title></title>
+    </head>
+    <body>
+        <h1>Header</h1>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#item">Title h2</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <article id="item">
+                    <h2>Title h2</h2>
+                    <p>Parragraf</p>
+                </article>
+                <aside>
+                    <p>Aside</p>
+                </aside>
+            </section>
+            <h1>Tables</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Table head 1</th>
+                        <th scope="col">Table head 2</th>
+                        <th scope="col">Table head 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Table head 1</th>
+                        <td>Table data 2</td>
+                        <td>Table data 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Table footer col 1</td>
+                        <td>Table footer col 2</td>
+                        <td>Table footer col 3</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <section id="">
+                <!--En este espacio se puede configurar el fondo de Form y elementos asociados-->                
+                <H1>Form method = "POST"</H1>
+
+                <form action="" method="POST">
+
+                    <section class="">
+                        <label for="name">Input type text</label>
+                        <input type="text" name="name" id="name" value="" required>
+                    </section>
+
+                    <section class="">
+                        <label for="name">Input type number</label>
+                        <input type="number" name="name" id="name" min="" max="" step="">
+                    </section>
+
+                    <section>
+                        <label for="name">Input type range</label>
+                        <input type="range" name="name" id="name" min="" max="" step="">
+                    </section>
+
+                    <section class="class">
+                        <label for="name">Input type checkbox</label>
+                        <input type="checkbox" name="class" id="name" value="name" required>
+                    </section>
+
+                    <section class="">
+                        <input type="radio" name="name" id="value1" value="value1">
+                        <label for="radio">Input radio type 1</label>
+                        <input type="radio" name="name" id="value2" value="value2">
+                        <label for="radio">Input radio type 2</label>
+                        <input type="radio" name="name" id="value3" value="value3">                                                
+                        <label for="radio">Input radio type 3</label>
+                    </section>
+
+                    <section class="">
+                        <label for="name">Input select type</label>
+                        <select name="name" id="name">
+                            <option value="opcion1">Opcion 1</option>
+                            <option value="opcion2">Opcion 2</option>
+                            <option value="opcion3">Opcion 3</option>
+                        </select>
+                    </section>
+
+                    <section class="">
+                        <label for="name">Input datalist type</label>
+                        <input list="names" name="name" id="name">
+                        <datalist id="names">
+                            <option value="opcion1"></option>
+                            <option value="opcion2"></option>
+                            <option value="opcion3"></option>
+                        </datalist>
+                    </section>
+
+                    <section class="">
+                        <label for="name">Input textarea type</label>
+                        <textarea name="name" id="name" cols="50" rows="10">Text Area</textarea>
+                    </section>
+
+                    <section class="">
+                        <label for="name">Input submit type</label>
+                        <input type="submit" value="submit">
+                    </section>
+
+                </form>
+                </section>
+            </section>
+
+            <section>
+                <h1>Form method = "GET"</h1>
+                <h2>Crear una cuenta</h2>
+                <form action="/.submission.html" method="get">
+                    <label for="userId">User ID</label>
+                    <input type="text" name="userId" id="userId" minlength="" maxlength="" pattern="[0-9a-zA-Z]+" required>
+                    <label for="psw">Password</label>
+                    <input type="password" name="psw" id="psw" minlength="" maxlength="" required>
+                    <input type="submit" value="Send">                     
+                </form>
+            </section>
+
+            <figure>
+                <h1>Image</h1>
+                <img src="" alt="">
+                <figcaption>Image text</figcaption>
+            </figure>
+            <h1>Video</h1>
+            <video controls>
+                <source src="" alt="">
+            </video>
+            <h1>Audio</h1>
+            <audio controls>
+                <source src="" alt="">
+            </audio>
+            <h1>Embed element</h1>
+            <embed src="" alt="">
+        </main>
+        <hr>
+        <footer>
+            <h3>-------------------------------------------Footer---------------------------------------------------</h3>
+        </footer>
+    </body>
+</html>
