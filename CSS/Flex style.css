@@ -12,6 +12,7 @@ h1{
 
 h2{
     font-size: 18px;
+    text-align: center;
 }
 
 .container{
@@ -64,6 +65,34 @@ h2{
     border: 2px solid lightgray;
 }
 
+.top, .middle, .bottom {
+  width: 100px;
+  height: 100px;
+  background-color: Dodgerblue;
+  border: 2px solid lightgrey;
+  margin: 10px 30px;
+}
+
+.top.side{
+    flex-grow: 1;
+}
+
+.top.center1{
+    flex-grow: 1;
+}
+
+.middle.center1{
+    flex-grow: 1;
+}
+
+.bottom.side{
+    flex-grow: 1;
+}
+
+.bottom.center1{
+    flex-grow: 2;
+}
+
 #flex{
     display: inline-flex;
 }
@@ -110,3 +139,10 @@ h2{
    align-items: baseline;
 }
 
+#top, #middle, #bottom{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items:center;
+    min-height: 200px;
+}
