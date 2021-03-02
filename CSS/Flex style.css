@@ -67,7 +67,7 @@ h2{
     border: 2px solid lightgray;
 }
 
-.top, .middle, .bottom {
+.top, .middle, .bottom, .grow, .shrink {
   width: 100px;
   height: 100px;
   background-color: Dodgerblue;
@@ -105,6 +105,25 @@ h2{
 
 .bottom.center1{
     flex-shrink: 2;
+}
+
+.grow.side1{
+    flex-basis: 60px;
+    flex-grow: 1;
+}
+
+.grow.center2{
+    flex-grow: 3;
+}
+
+.shrink.side1{
+    flex-basis: 300px;
+    flex-shrink: 3;
+}
+
+.shrink.center2{
+    flex-shrink: 2;
+    flex-basis: 150px;
 }
 
 #flex{
@@ -153,7 +172,7 @@ h2{
    align-items: baseline;
 }
 
-#top, #middle, #bottom{
+#top, #middle, #bottom, #grows, #shrinks{
     display: flex;
     background-color: whitesmoke;
     justify-content: center;
