@@ -1,39 +1,63 @@
+*{
+  border:1px solid red;
+}
+
 p {
     font-family: Arial;
   }
   
-  h1 {
+h1 {
     color: maroon;
   }
+
+h2{
+  background-color: aqua;
+}
   
-  h2.destination {
+h2.destination {
     font-family: cursive;
   }
   
-  .title {
+.title {
     color: teal;
   }
   
-  .uppercase {
+.uppercase {
     text-transform: uppercase;
   }
-  .publish-time {
+.publish-time {
     color: gray;
   }
   
-  .cursive {
+.cursive {
     font-family: cursive;
   }
   
-  .capitalize {
+.capitalize {
     text-transform: capitalize;
   }
-  .description h5{
+.description h5{
     color: teal;
   }
-  h5{
+h5{
     color: rebeccapurple;
   }
-  h5, p{
+h5, p{
     font-family: Georgia;
   }
+
+a[href*='florence'] {
+  color:lightgreen;
+}
+
+a[href*='beiging'] {
+  color:lightblue;
+}
+
+a[href*='seoul'] {
+  color:lightpink;
+}
+
+a:hover {
+  color: darkorange;
+}
